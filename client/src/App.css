@@ -1,0 +1,8 @@
+a, a:hover {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.detail-box{
+  background-color: lightgray!important;
+}
