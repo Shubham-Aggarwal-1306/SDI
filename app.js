@@ -34,7 +34,7 @@ app.use(express.json({ extended: false }));
 // use Routes
 app.use('/api/events', events);
 
-const port = process.env.PORT || 8082;
+const port = process.env.PORT || 5000;
 
 if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging') {
     app.use(express.static('client/build'));

@@ -41,7 +41,7 @@ class CreateEvent extends Component {
     };
 
     axios
-      .post("http://localhost:8082/api/events/", data)
+      .post("/api/events/", data)
       .then((res) => {
         this.setState({
           name: "",

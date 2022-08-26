@@ -16,7 +16,7 @@ class ShowEvent extends Component {
   componentDidMount() {
     const name = this.props.match.params.name;
     axios
-      .get('http://localhost:8082/api/events/'+  name)
+      .get('/api/events/'+  name)
       .then(res => {
         // console.log("Print-showBookDetails-API-response: " + res.data);
         this.setState({
